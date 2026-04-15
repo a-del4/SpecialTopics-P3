@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Modular Speaker – by FROLIC Studio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.81/build/spline-viewer.js"></script>
+</head>
+<body>
+	<div class="page-shell">
+		<header class="site-nav">
+			<div class="nav-logo">
+				<img src="assets/logo_FrolicStudio.png" alt="Frolic Studio logo">
+			</div>
+
+			<nav class="nav-center" aria-label="Primary">
+				<span class="nav-link">Overview</span>
+				<span class="nav-link">Specs</span>
+				<span class="nav-link">FAQ</span>
+			</nav>
+
+			<button class="preorder-btn" type="button">Pre-Order</button>
+		</header>
+
+		<main class="hero-layout">
+			<section class="hero-copy">
+				<h1 class="reveal text-1">Modularity at the core</h1>
+				<p class="subheadline reveal text-2">The customizable smart-home speaker that evolves and adapts to your changing needs</p>
+				<p class="body-copy reveal text-3">
+					Built for repair and upgrades, this speaker uses interchangeable modules so you can swap, expand, and personalize key parts over time instead of replacing the whole device. The result is a longer-lasting product with lower waste and greater everyday flexibility.
+				</p>
+
+				<div class="preview-grid reveal text-4" aria-label="Product preview images">
+					<img src="assets/preview_1.png" alt="Frolic speaker preview one">
+					<img src="assets/preview_2.png" alt="Frolic speaker preview two">
+					<img src="assets/preview_3.png" alt="Frolic speaker preview three">
+				</div>
+			</section>
+
+			<section class="hero-visual" aria-label="Interactive 3D product preview">
+				<div class="viewer-frame">
+					<spline-viewer url="https://prod.spline.design/G0xGEsXJW5lP0zGN/scene.splinecode"></spline-viewer>
+				</div>
+			</section>
+		</main>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
